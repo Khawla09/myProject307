@@ -1,0 +1,67 @@
+div.destinations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+div.dest > h1 {
+  font-size: 30px;
+  font-weight: 2rem;
+}
+div.spring-dest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+div.spring-dest > div > a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+div.travel-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.footer {
+  background-color: rgb(247, 249, 249);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-end > p {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+}
+.footer-end > ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  li > a {
+    color: black;
+    font-size: 15px;
+  }
+}
+.footer-end > ul > li > a:hover {
+  border-bottom: 1px solid #b21e35;
+  color: #b21e35;
+}
+.footer-list {
+  display: flex;
+}
